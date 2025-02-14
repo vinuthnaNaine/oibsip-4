@@ -1,17 +1,42 @@
 # oibsip-4
 Email Spam Detection with Machine Learning
-# Email Spam Detection with Machine Learning
+# 📧 Email Spam Detection with Machine Learning  
 
-## Overview
-This project implements a machine learning model to classify emails as spam or not spam. It uses natural language processing (NLP) techniques and various machine learning algorithms to build an effective classifier.
+## 📌 Project Overview  
+This project implements **Machine Learning algorithms** to classify emails as **Spam or Ham (Not Spam)**. It uses **Natural Language Processing (NLP)** techniques to analyze text features and build a predictive model.  
 
-## Features
-- Data cleaning and preprocessing
-- Text vectorization (TF-IDF or Count Vectorizer)
-- Machine learning model training and evaluation
-- Accuracy assessment and performance metrics
+---
 
-## Requirements
-Ensure you have the following libraries installed:
+## 📂 Dataset Information  
+- **Filename:** `spam.csv`  
+- **Format:** CSV  
+- **Size:** 492 KB  
+
+### **🔢 Features & Labels**
+| Column Name | Description |
+|-------------|------------|
+| `v1`        | Label (ham/spam) |
+| `v2`        | Email text content |
+| `Unnamed` (if present) | Extra metadata (can be removed) |
+
+- The dataset contains **text messages labeled as either "ham" (not spam) or "spam"**.
+- It is used to train and test machine learning models for spam detection.
+
+---
+
+## 🚀 Getting Started  
+
+### **🔧 Requirements**
+Ensure you have **Python 3.x** installed, along with the following libraries:  
+- `numpy`
+- `pandas`
+- `nltk`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
+- `Jupyter Notebook`
+
+### **📥 Install Dependencies**  
+Run the following command to install the required dependencies:  
 ```bash
-pip install pandas numpy sklearn nltk matplotlib seaborn
+pip install numpy pandas nltk scikit-learn matplotlib seaborn notebook
