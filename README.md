@@ -17,7 +17,6 @@ This project implements **Machine Learning algorithms** to classify emails as **
 |-------------|------------|
 | `v1`        | Label (ham/spam) |
 | `v2`        | Email text content |
-| `Unnamed` (if present) | Extra metadata (can be removed) |
 
 - The dataset contains **text messages labeled as either "ham" (not spam) or "spam"**.
 - It is used to train and test machine learning models for spam detection.
